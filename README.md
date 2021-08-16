@@ -1,4 +1,4 @@
-# Culvet-Nomograph
+# Culvert-Nomograph
 This project includes the codes and principles behind four types of Culvert nomograph
 1. Mannings - Flow, Hydraulic grade, Diameter/Velocity 
 2. Colebrook White - Flow, Hydraulic grade (Slope), Diameter/Velocity 
