@@ -9,3 +9,4 @@ Detail notes behind can be referred to File - Principles.pdf
 # References 
 1. https://plainwater.com/water/hds-5-inlet-control-equations/
 2. https://www.cpaa.asn.au/images/publications/engineering_guidelines/cpaa_design_manual_hydraulics_jan13.pdf
+3. http://lefakkomies.github.io/pynomo-doc/index.html
