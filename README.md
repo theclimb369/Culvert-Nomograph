@@ -1,8 +1,8 @@
 # Culvet-Nomograph
 This project includes the codes and principles behind four types of Culvert nomograph
 1. Mannings - Flow, Hydraulic grade, Diameter/Velocity 
-2. Colebrook White - Flow, Hydraulic grade, Diameter/Velocity 
-3. Inlet Submerged - Diameter -D(m), Flow - Q(m^3/s), Headwater depth HW/D for three circular pipes
+2. Colebrook White - Flow, Hydraulic grade (Slope), Diameter/Velocity 
+3. Inlet Submerged - Diameter - D(m), Flow - Q(m^3/s), Headwater depth HW/D for three circular pipes
 4. Outlet Submerged - Flow - Q(m^3/s), Diameter - D(m), Pipe length - L(m), Heahwater Loss - H(m) 
 Detail notes behind can be referred to File - Principles.pdf
 
