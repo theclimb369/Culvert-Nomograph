@@ -49,14 +49,14 @@ for v in V:
     # Approach I - approximation # 
     y = np.log10(1.558 / (v**2/(2*g*S*k)) ** 0.8 + 15.045 / (v**3/(2*g*S*mu)) ** 0.73)
     Dv = v**2 / (8 * g * S * y**2)
-    Qv = math.pi * Dv**2 / 4.0
+    Qv = v* math.pi * Dv**2 / 4.0
     ax.loglog(S, Qv, '#0054A6')
 
     # Approach II - fsolve #
     func = lambda D : v + 2*(2*g*D*S)**(0.5) * np.log10(const2 * D**(-1.0/2) + const3 * D**(-3.0/2) * S**(-1.0/2)) 
     D_initial_guess = Dv
     D_solution = fsolve(func, D_initial_guess)
-    Q_cal = math.pi * D_solution**2 / 4.0
+    Q_cal = v* math.pi * D_solution**2 / 4.0
     # print ("The solution for V=%f S=%f is D = %f Q=%f Dv = %f Qv=%f " % (v, S, D_solution, Q_cal, Dv, Qv))
     ax.loglog(S, Q_cal, 'red')   
     
